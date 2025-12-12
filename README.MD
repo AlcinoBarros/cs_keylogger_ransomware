@@ -46,9 +46,9 @@ O objetivo desse README é de documentar e demonstrar em o funcionamento de dois
 - Editor de código (VSCode recomendado)
 - Internet (somente para consulta às documentações oficiais)
 - Conhecimento básico de:
- - arquivos e diretórios
- - execução de scripts
- - conceitos de segurança digital
+   - arquivos e diretórios
+   - execução de scripts
+   - conceitos de segurança digital
 
 Dependências opcionais:
 
@@ -102,9 +102,9 @@ python ./scripts/ransoware.py
 ```
 Isso gera:
 
- - Arquivos criptografados
- - chave.key
- - LEIA ISSO.txt
+   - Arquivos criptografados
+   - chave.key
+   - LEIA ISSO.txt
 
 3. Executar descriptografia
 ```bash
@@ -121,7 +121,7 @@ python ./scripts/descriptografar.py
 python ./scripts/keylogger.py
 ```
 Saída gerada:
- - log.txt
+   - log.txt
 
 
 ### 5.3 Envio de Logs por E-mail
@@ -138,13 +138,13 @@ Os scripts completos estão localizados dentro do diretorio /scripts.
 
 ## 7. Wordlists e arquivos auxiliares
 - Diretorio **/output**, contém:
- - arquivos gerados pelo ransoware
- - logs do keylogger
- - mensagem de resgate
- - chaves
+   - arquivos gerados pelo ransoware
+   - logs do keylogger
+   - mensagem de resgate
+   - chaves
 
 - Diretorio **/test_files**, contém:
- - arquivos usados para criptografar e descriptografar.
+   - arquivos usados para criptografar e descriptografar.
 
 ## 8. Medidas de defesa e prevenção
 | Categoria | Medidas recomendadas | 
@@ -173,5 +173,6 @@ Todas as evidencias serão encontradas nas pastas:
 - Cryptography (Fernet) https://cryptography.io/
 - pynput – captura de teclado https://pypi.org/project/pynput/
 - smtplib – envio de e-mails https://docs.python.org/3/library/smtplib.html
+
 
 
