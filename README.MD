@@ -83,7 +83,7 @@ pip install cryptography pynput
 ```
 
 ## 5. Cenários de teste e comandos
-> Todos os comandos usados se encontram abaixo; IPs, nomes de usuário e wordlists.
+> Todos os comandos usados se encontram abaixo;
 
 ### 5.1 Ransomware Simulado
 1. Criar arquivos de teste
@@ -173,4 +173,5 @@ Todas as evidencias serão encontradas nas pastas:
 - Cryptography (Fernet) https://cryptography.io/
 - pynput – captura de teclado https://pypi.org/project/pynput/
 - smtplib – envio de e-mails https://docs.python.org/3/library/smtplib.html
+
 
